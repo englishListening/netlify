@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./functions/app.mjs",
+    "start": "nodemon ./functions/api.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -10,14 +10,14 @@ app.use(cors())
 app.use(express.json())
 app.use(bp.urlencoded({ extended: true }));
 app.use(bp.json());
-const PORT = 8888;
+const PORT = 8088;
 
 
 
 
  
 // database connection
-const dbURI = 'mongodb+srv://englishlearning362:kiritoEnglish@cluster0.4dz3let.mongodb.net/node_auth?retryWrites=true&w=majority';
+const dbURI = 'mongodb+srv://englishlearning362:1111@cluster0.4dz3let.mongodb.net/node_auth?retryWrites=true&w=majority';
 mongoose.connect(dbURI)
 
 
