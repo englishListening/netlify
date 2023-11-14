@@ -2,7 +2,7 @@ import mongoose from "mongoose"
 import isEmail from "validator/lib/isEmail.js"
 import bcrypt from 'bcrypt'
 
-mongoose.connect("mongodb+srv://englishlearning362:kiritoEnglish@cluster0.4dz3let.mongodb.net/node_auth?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://englishlearning362:1111@cluster0.4dz3let.mongodb.net/node_auth?retryWrites=true&w=majority")
 .then(()=>{
     console.log("mongodb connected");
 })
